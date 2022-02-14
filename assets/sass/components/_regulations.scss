@@ -41,15 +41,23 @@
 }
 
 .ssl-logo {
-    display: flex;
+    display: grid;
+    place-items: center;
+    width: 50%;
+    height: auto;
     margin-bottom: 2em;
-    margin: 0 auto;
     padding-bottom: 1em;
     pointer-events: none;
-    cursor: default;
+}
+@media (min-width: 40em) {
+    .ssl-logo {
+        width: 30%;
+    }
 }
 
 .ssl-logo img {
+    // display: grid;
+    // place-content: center;
     width: 100%;
     height: auto;
 }
