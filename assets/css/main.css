@@ -3799,10 +3799,17 @@ body .testimonials {
   padding-left: 0;
 }
 
-.ssl-logo {
+#comodo img {
   display: grid;
-  place-items: center;
-  width: 50%;
+  place-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.ssl-container img {
+  display: grid;
+  place-content: center;
+  width: 100%;
   height: auto;
   margin-bottom: 2em;
   padding-bottom: 1em;
@@ -3810,15 +3817,16 @@ body .testimonials {
 }
 
 @media (min-width: 40em) {
-  .ssl-logo {
-    width: 30%;
+  .ssl-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  #comodo img {
+    width: 100%;
+    height: auto;
   }
 }
-.ssl-logo img {
-  width: 100%;
-  height: auto;
-}
-
 /* Header */
 #main .inner .major-testimonials p {
   color: #ececec;

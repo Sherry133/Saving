@@ -39,25 +39,33 @@
         }
     }
 }
-
-.ssl-logo {
+#comodo img {
     display: grid;
-    place-items: center;
-    width: 50%;
+    place-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.ssl-container img {
+    display: grid;
+    place-content: center;
+    width: 100%;
     height: auto;
     margin-bottom: 2em;
     padding-bottom: 1em;
     pointer-events: none;
 }
 @media (min-width: 40em) {
-    .ssl-logo {
-        width: 30%;
+    .ssl-container img {
+        // display: grid;
+        // place-content: center;
+        width: 100%;
+        height: auto;
     }
-}
-
-.ssl-logo img {
-    // display: grid;
-    // place-content: center;
-    width: 100%;
-    height: auto;
+    #comodo img {
+        // display: grid;
+        // place-content: center;
+        width: 100%;
+        height: auto;
+    }
 }
