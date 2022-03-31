@@ -3940,7 +3940,7 @@ body .testimonials {
 }
 
 #popup {
-  background-image: linear-gradient(120deg, blue 0%, #fda085 80%);
+  background-image: linear-gradient(120deg, hsl(240deg, 100%, 50%) 0%, #fda085 80%);
 }
 
 .modal-header {
@@ -3991,8 +3991,8 @@ a:link {
   position: absolute;
   display: block;
   z-index: 10;
-  left: 0%;
-  top: 10%;
+  left: 0;
+  top: 0;
   height: 60vh;
   width: 100vw;
   overflow: auto;
@@ -4673,7 +4673,7 @@ body.is-menu-visible #menu .inner {
   padding: 16em 3em;
   position: relative;
   text-align: center;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 #banner h1 {
   color: inherit;
